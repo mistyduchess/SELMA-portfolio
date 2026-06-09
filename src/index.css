@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@keyframes moveLogo {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-38vw, -38vh) scale(0.25);
+    opacity: 0.8;
+  }
+}
+
+.animate-logo {
+  animation: moveLogo 0.8s ease-in-out forwards;
+}
