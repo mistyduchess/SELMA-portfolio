@@ -23,6 +23,50 @@ function Experience() {
 
           {/* Vertical line */}
           <div className="absolute left-4 top-0 bottom-0 w-1 bg-[#ffc1cc]" />
+          {/* Experience 0 */}
+          <div className="relative pl-16 mb-12">
+            <div className="absolute left-0 w-8 h-8 rounded-full bg-[#ac3156]" />
+
+            <div className="bg-white p-6 rounded-2xl shadow-sm">
+              <p className="text-[#ac3156] font-semibold">
+                November 2025 – today
+              </p>
+
+              <h2 className="text-2xl font-bold mt-2">
+                BI Engineer
+              </h2>
+
+              <p className="text-gray-500 mb-4">
+                National Employment Agency (ANEM)
+              </p>
+
+              <ul className="list-disc ml-5 space-y-2 text-gray-700">
+                <li>
+                   Developed and maintained ETL processes using SSIS to integrate data from multiple sources into a Data Warehouse.
+                </li>
+
+                <li>
+                  Created dashboards and reports using Power BI Desktop and Power BI Server.
+                </li>
+
+                <li>
+                  Ensured data quality, integrity, and consistency across systems.
+                </li>
+                 <li>
+                  Conducted data matching and similarity analysis to support data synchronization across multiple sources.
+                </li>
+                 <li>
+                  Managed user roles and access permissions.
+                </li>
+                 <li>
+                  Participated in data warehouse and OLAP cube design, including dimensions and measures.
+                </li>
+                 <li>
+                  Managed SMS notification campaigns for application deadlines and appointment reminders.
+                </li>
+              </ul>
+            </div>
+          </div>
 
           {/* Experience 1 */}
           <div className="relative pl-16 mb-12">
@@ -159,6 +203,7 @@ function Experience() {
               </ul>
             </div>
           </div>
+          
         </div>
 
         {/* BACK BUTTON */}
